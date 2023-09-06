@@ -1,0 +1,53 @@
+$poppins_font: 'Poppins';
+$rubik_font: 'Rubik', sans-serif;
+$open_sans_font: 'Open Sans', sans-serif;
+
+.portfolio-bg-img {
+    background-image: url("./../../Assests/portfolioimg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  .portfolio_basic_banner{
+    padding: 12rem 10rem;
+   
+    .portfolio_heaading_font {
+      
+     font-family: $rubik_font;
+     font-weight: 700;
+     font-size: 60px;
+   }
+   .portfolio_paragraph_font{
+   
+     font-family: $open_sans_font;
+     font-weight: 400;
+     
+   }
+}
+  @media (max-width: 992px) {
+    .portfolio_basic_banner{
+      padding: 1rem 1rem;
+     
+      .portfolio_heaading_font {
+        
+       font-family: $rubik_font;
+       font-weight: 700;
+       font-size: 30px;
+     }
+     .portfolio_paragraph_font{
+     
+       font-family: $open_sans_font;
+       font-weight: 400;
+       padding: 0;
+       
+     }
+    }
+    .portfolio_paragraph_font{
+   
+        font-family: $open_sans_font;
+        font-weight: 200;
+        
+      }
+   }
+  
+  

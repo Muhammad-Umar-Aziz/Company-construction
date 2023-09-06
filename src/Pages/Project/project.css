@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-img {
+  background-image: url("../../Assests/projectimg2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.basic_banner {
+  padding: 6rem 10rem;
+}
+.basic_banner .heaading_font {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.basic_banner .paragraph_font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.date_paddings {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+@media (max-width: 992px) {
+  .basic_banner {
+    padding: 3rem 5rem;
+  }
+  .basic_banner .heaading_font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .basic_banner .paragraph_font {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+}/*# sourceMappingURL=project.css.map */

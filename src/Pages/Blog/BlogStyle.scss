@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+// Define font variables
+$poppins_font: 'Poppins';
+$rubik_font: 'Rubik', sans-serif;
+$open_sans_font: 'Open Sans', sans-serif;
+
+// Styles for .blog-bg-img
+.blog-bg-img {
+  background-image: url('../../Assests/blogimg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Styles for .blog_basic_banner
+.blog_basic_banner {
+  padding: 6rem 10rem !important;
+}
+
+// Styles for .blog_heaading_font
+.blog_heaading_font {
+  font-family: $rubik_font;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+// Media query for screens with a max-width of 992px
+@media (max-width: 992px) {
+  // Adjust background image and banner padding
+  .blog-bg-img {
+    background-image: url('../../Assests/blogimg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .blog_basic_banner {
+    padding: 7rem 4rem !important;
+  }
+
+  // Reapply font styles
+  .blog_heaading_font {
+    font-family: $rubik_font;
+    font-weight: 700;
+    font-size: 60px;
+  }
+}

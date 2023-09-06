@@ -1,0 +1,370 @@
+npm i for install node module
+|
+|
+|
+|
+*****************************************************************************************
+Installation & Setup for React-Boostrap:
+
+1.npm install react-bootstrap bootstrap
+2.import the given file in index.js file : import 'bootstrap/dist/css/bootstrap.min.css';
+*****************************************************************************************
+|
+|
+|
+|
+*****************************************************************************************
+Banner Card Code :
+{/* <Col md={4} className="bg_color">
+          <div className="p-5">
+
+          <h1 style={{fontFamily:'rubik',fontWeight:'700'}} className="pb-3">Our Services</h1>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img1}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'700',fontSize:'16px'}}>Building Construction</h5>
+            <p className="text-light">Lorem ipsum dolor sit consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img2}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'700',fontSize:'16px'}}>Foundation Work</h5>
+            <p className="text-light">Lorem ipsum dolor sit consectetur adipiscing elit. </p>
+            </div>
+          </div>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img3}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'700',fontSize:'16px'}}>Site Management</h5>
+            <p className="text-light">Lorem ipsum dolor sit consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          </div>
+          </Col> */}
+*****************************************************************************************
+|
+|
+|
+|
+*****************************************************************************************
+Card Code:
+ const buttonStyleslower = {
+    borderRadius: '0',
+    border: '5px solid rgba(31, 31, 31, 1)',
+    backgroundColor: 'white',
+    fontFamily: 'Rubik, sans-serif',
+    fontWeight: 600,
+    fontSize: '14px',
+    padding: '12px 50px',
+    cursor: 'pointer',
+    color: 'rgba(31, 31, 31, 1)',
+  };
+  const buttonStyles = {
+    borderRadius: '0',
+    border: '1px solid rgba(102, 102, 102, 1)',
+    backgroundColor: 'white',
+    fontFamily: 'Open Sans',
+    fontWeight: 900,
+    fontSize: '11px',
+    padding: '5px 32px',
+    cursor: 'pointer',
+    color: 'rgba(102, 102, 102, 1)',
+  };
+
+
+  const cardBackgroundColor = 'white';
+
+ {/* <Container>
+     <Row>
+        <Col md={4}>
+        <Card style={{ width: '18rem' }} className='border-0'>
+      <img src={img}/>
+      <Card.Body className='border_of_card p-4'>
+        <Card.Title className='pb-3' style={{ fontFamily: 'Open Sans', fontWeight: '700', fontSize: '15px' }}>Project Title</Card.Title>
+        <Card.Text  className='text-muted pb-5' style={{ fontFamily: 'Open Sans', fontWeight: '400', fontSize: '15px' }}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. Cras tristique viverra gravida et sit egestas.
+        </Card.Text>
+        <div className='pt-5'>
+        <Basicbutton style={buttonStyles} children={"VIEW PROJECT"}/>
+        </div>
+       </Card.Body>
+    </Card>
+     </Col>
+     <Col md={4}>
+        <Card style={{ width: '18rem' }} className='border-0'>
+      <img src={img}/>
+      <Card.Body className='border_of_card p-4'>
+        <Card.Title className='pb-3' style={{ fontFamily: 'Open Sans', fontWeight: '700', fontSize: '15px' }}>Project Title</Card.Title>
+        <Card.Text  className='text-muted pb-5' style={{ fontFamily: 'Open Sans', fontWeight: '400', fontSize: '15px' }}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. Cras tristique viverra gravida et sit egestas.
+        </Card.Text>
+        <div className='pt-5'>
+        <Basicbutton style={buttonStyles} children={"VIEW PROJECT"}/>
+        </div>
+       </Card.Body>
+    </Card>
+     </Col>
+     <Col md={4}>
+        <Card style={{ width: '18rem' }} className='border-0'>
+      <img src={img}/>
+      <Card.Body className='border_of_card p-4'>
+        <Card.Title className='pb-3' style={{ fontFamily: 'Open Sans', fontWeight: '700', fontSize: '15px' }}>Project Title</Card.Title>
+        <Card.Text  className='text-muted pb-5' style={{ fontFamily: 'Open Sans', fontWeight: '400', fontSize: '15px' }}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. Cras tristique viverra gravida et sit egestas.
+        </Card.Text>
+        <div className='pt-5'>
+        <Basicbutton style={buttonStyles} children={"VIEW PROJECT"}/>
+        </div>
+       </Card.Body>
+    </Card>
+     </Col>
+     </Row>
+<div className='d-flex justify-content-center py-5'>
+            <Basicbutton style={buttonStyleslower}>VIEW ALL</Basicbutton>
+          </div>
+      </Container> */}
+|
+|
+|
+|
+*****************************************************************************************
+Blog Card
+ {/* <div className='py-5'>
+     <Card style={{ width: '18rem' }}>
+       <img src={img1} className='img-fluid'/>
+      <Card.Body>
+        <Card.Title style={{fontFamily: 'Rubik', fontWeight: '700', fontSize: '18px' }} className='text-center text-md-start' >Nunc Volutpat Venenatis</Card.Title>
+        <Card.Text>
+        <p style={{ color:'rgba(201, 201, 201, 1)',fontFamily:'Open Sans',fontSize:'14px',fontWeight:'400'}} className='text-center text-md-start'>May 9, 2014 | Category</p>
+        <p style={{fontFamily:'Open Sans',fontSize:'14px',fontWeight:'400'}} className='text-center text-md-start'>Nulla a odio sed magna congue condimentum. Pellentesque convallis enim nec libero vulputate, et rhoncus urna placerat. Phasellus mattis, diam vel vehicula facilisis, erat leo dapibus augue, at mollis tellus ex non nisi.</p>
+        
+        </Card.Text>
+      
+      </Card.Body>
+    </Card>
+
+     </div> */}
+
+*******************************************************************************************************************
+import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import leftline from '../../Assests/line.svg'
+import Basicbutton from '../../Reuseable Components/Basicbutton'
+import img1 from '../../Assests/s-t-1.svg'
+import img2 from '../../Assests/s-t-2.svg'
+import img3 from '../../Assests/s-t-3.svg'
+
+
+const ServiceHeader = () => {
+    const buttonStyles = {
+        borderRadius: '0',
+        border: 'none',
+        backgroundColor: 'rgba(255, 180, 0, 1)',
+        fontFamily: 'Rubik, sans-serif',
+        fontWeight: 600,
+        fontSize: '14px',
+        padding: '12px 32px',
+        cursor: 'pointer',
+        
+      };
+  return (
+    <div>
+      <Container fluid className='service_bg_img'>
+      <Row>
+        <Col md={8}>
+        <div className='service_basic_banner'>
+      <div className='d-flex pb-4 d-flex justify-content-center justify-content-md-start'>
+      <img src={leftline}/>
+      <h1 className='text-light service_heaading_font ps-4 pt-4'>Framing</h1>
+      </div>
+      <p className='text-light service_paragraph_font  mb-5 text-center text-md-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. </p>
+       <div  className='d-flex justify-content-center justify-content-md-start'>
+       <Basicbutton style={buttonStyles}>GET A QUOTE</Basicbutton>
+       </div>
+       </div>
+      </Col>
+         <Col md={4} className="bg_color">
+          <div className="p-5">
+
+          <h1 style={{fontFamily:'rubik',fontWeight:'700',color:'rgba(255, 180, 0, 1)'}} className="pb-3 text-center text-md-start">Our Services</h1>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img1}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'700',fontSize:'16px'}} className='text-light text-center text-md-start'>Building Construction</h5>
+            <p className="text-light text-center text-md-start">Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat</p>
+            </div>
+          </div>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img2}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'700',fontSize:'16px'}} className='text-light text-center text-md-start'>Foundation Work</h5>
+            <p className="text-light text-center text-md-start">Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat</p>
+            </div>
+          </div>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img3}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'700',fontSize:'16px'}} className='text-light text-center text-md-start'>Site Management</h5>
+            <p className="text-light text-center text-md-start">Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat</p>
+            </div>
+          </div>
+          </div>
+          </Col>
+          </Row>
+     
+      </Container>
+    </div>
+  )
+}
+
+export default ServiceHeader
+
+
+
+//     const buttonStyles = {
+//         borderRadius: '0',
+//         border: 'none',
+//         backgroundColor: 'rgba(255, 180, 0, 1)',
+//         fontFamily: 'Rubik, sans-serif',
+//         fontWeight: 600,
+//         fontSize: '14px',
+//         padding: '12px 23px',
+//         cursor: 'pointer',
+//       };
+//   return (
+//     <div>
+//     <Container fluid className='home_bg_img'>
+//     <div>
+//     <div className='home_paddings'>
+//     <div className='d-flex justify-content-center'>
+//     <img src={img}/>
+//     </div>
+ 
+//               <div className='d-flex pb-4 d-flex justify-content-center'>
+//                <h1 className='text-light home_heaading_font ps-4 pt-4 text-center'>Construction Inc</h1>
+//               </div>
+//               <p className='text-light home_paragraph_font mb-5 text-center'>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus erat<br/> consectetur eu sapien eget, rhoncus consectetur sem.
+//               </p>
+//               <div className='d-flex justify-content-center'>
+//                 <Basicbutton style={buttonStyles}>VIEW OUR WORK</Basicbutton>
+//               </div>
+//             </div>
+//             </div>
+//          </Container>
+//      </div>
+//   )
+// }
+   ---------------------------------------------------------------------------------------------------
+only the best 
+
+ {/* <Col md={3} style={{backgroundColor:'rgba(247, 247, 247, 1)'}}>
+               
+             <div className="p-5">
+             <h1 style={{ fontFamily: 'Rubik', fontWeight: '700', fontSize: '32px' }} className='py-3'>Only the Best</h1>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img}/>
+          </div>
+          <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'500',fontSize:'18px'}} className='text-center text-md-start'>Eco Friendly Construction</h5>
+            <p className="text-center text-md-start" style={{fontFamily:'Open Sans',fontSize:'15px',fontWeight:'400'}}>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. </p>
+            </div>
+          </div>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'500',fontSize:'18px'}} className='text-center text-md-start'>The Newest Technology Repairs</h5>
+            <p className="text-center text-md-start" style={{fontFamily:'Open Sans',fontSize:'15px',fontWeight:'400'}}>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. </p>
+            </div>
+          </div>
+          <div className="d-flex pb-4">
+          <div className="pt-2">
+          <img src={img}/>
+          </div>
+           <div className="ps-3">
+            <h5 style={{fontFamily:'rubik',fontWeight:'500',fontSize:'18px'}} className='text-center text-md-start'>High Quality Construction Management</h5>
+            <p className="text-center text-md-start" style={{fontFamily:'Open Sans',fontSize:'15px',fontWeight:'400'}}>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. </p>
+            </div>
+          </div>
+          <div className='d-flex justify-content-center justify-content-md-end'>
+      <Basicbutton style={buttonStyles} children={"FREE QUOTE"} />
+    </div>
+          </div>
+          </Col> */}
+
+
+------------------------------------------------------------------------------------------------------------------
+List Reusable 
+ {/* <Container fluid className='mb-5'>
+        <Row>
+            <Col md={2}>
+            
+            </Col>
+            <Col md={10} style={{backgroundColor:'rgba(247, 247, 247, 1)'}}>
+            <div className='box_paddings'>
+            <h1 className='text-center text-md-start building_heading'>Building Construction</h1>
+            <div className='d-flex justify-content-center justify-content-md-start py-3'>
+            <img src={img}/>
+            </div>
+           
+            <p className='text-center text-md-start'  style={{ fontFamily: 'Open Sans', fontWeight: '400', fontSize: '15px' }}>Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. </p>
+            <Row>
+                
+                <Col md={4}>
+               
+                  <ListReUsable listData={listData} />
+                </Col>
+                <Col md={4}>
+             
+                  <ListReUsable listData={listData} />
+                </Col>
+                <Col md={4}>
+                
+                  <ListReUsable listData={listData} />
+                </Col>
+            </Row>
+
+            </div>
+          
+            
+            <Row>
+              <Col md={6} style={{ backgroundColor: 'rgba(42, 42, 42, 1)' }} className="text-center py-5">
+              <Basicbutton style={buttonStyles} children={"FREE QUOTE"}/>
+                 </Col>
+              <Col md={6} style={{ backgroundColor: 'rgba(255, 180, 0, 1)' }} className="text-center text-light py-5">
+              <Basicbutton style={buttonStyles1} children={"LEARN MORE"}/>
+              </Col>
+            </Row>
+           
+           
+             
+            </Col>
+        </Row>
+        
+    </Container>
+       */}
+------------------------------------------------------------------------------------------------------------------
+   
+
+Add the .scss file to their parent .jsx file : import './Mainstyle.scss';
+
+
+
+Confusions :
+redirect to  ????

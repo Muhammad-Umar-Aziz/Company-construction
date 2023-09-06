@@ -1,0 +1,38 @@
+.portfolio-bg-img {
+  background-image: url("./../../Assests/portfolioimg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio_basic_banner {
+  padding: 12rem 10rem;
+}
+.portfolio_basic_banner .portfolio_heaading_font {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.portfolio_basic_banner .portfolio_paragraph_font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .portfolio_basic_banner {
+    padding: 1rem 1rem;
+  }
+  .portfolio_basic_banner .portfolio_heaading_font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .portfolio_basic_banner .portfolio_paragraph_font {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+  .portfolio_paragraph_font {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+  }
+}/*# sourceMappingURL=PortfolioStyle.css.map */

@@ -1,0 +1,66 @@
+$poppins_font: 'Poppins';
+$rubik_font: 'Rubik', sans-serif;
+$open_sans_font: 'Open Sans', sans-serif;
+
+.services_bg_img{
+    background-image: url("./../../Assests/home-banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services_basic_banner{
+    padding: 6rem 10rem !important;
+}
+.services_heaading_font {
+   
+    font-family: $rubik_font;
+    font-weight: 700;
+    font-size: 64px;
+}
+.services_paragraph_font{
+
+    font-family: $open_sans_font;
+    font-weight: 400;
+    font-size: 22px;
+    
+}
+.box_paddings{
+    padding: 7rem 5rem;
+}
+
+.building_heading{
+    font-family: $rubik_font; 
+    font-weight: 700;
+    font-size: 40px ;
+  }
+  .Over_Margin{
+    margin-top: -48px !important;
+  }
+  .Shadow_Position{
+    position: relative;
+  }
+  @media (max-width: 992px) {
+    .services_basic_banner{
+      padding: 3rem 5rem !important;
+    }
+      .services_heaading_font {
+     
+       font-size: 30px !important;
+     }
+     .services_paragraph_font{
+    
+       padding: 0 !important;
+       
+     }
+    }
+    @media (max-width: 768px) {
+
+        .box_paddings{
+            padding: 2rem 2rem;
+        }
+        .building_heading{
+            font-family: $rubik_font; 
+            font-weight: 700;
+            font-size: 30px !important ;
+          }
+      
+        }

@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header_fonts {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.nav_fonts {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Main_Bg_Img {
+  background-image: url("../../Assests/Banner_01.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Main_Bg_Color {
+  background-color: rgb(255, 180, 0) !important;
+}
+
+.Banner_Headings_Fonts {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.basic_banner {
+  padding: 6rem 10rem;
+}
+.basic_banner .heaading_font {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.basic_banner .paragraph_font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.NoProjectTo_Paddings {
+  padding: 80px 40px;
+}
+
+.border_of_card {
+  border: 1px solid rgb(102, 102, 102);
+  margin-top: 1.5rem;
+}
+
+.No_bg_img {
+  background-image: url("../../Assests/noproject.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.equal-height-columns {
+  min-height: 400px;
+  max-height: 580px;
+}
+
+@media (max-width: 502px) {
+  .header_fonts {
+    padding: 0;
+    font-size: medium;
+  }
+}
+@media (max-width: 389px) {
+  .header_fonts {
+    padding: 0;
+    font-size: 11px;
+  }
+}
+@media (max-width: 992px) {
+  .basic_banner {
+    padding: 3rem 5rem;
+  }
+  .basic_banner .heaading_font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .basic_banner .paragraph_font {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .No_bg_img {
+    height: 730px;
+  }
+}
+@media (max-width: 992px) {
+  .card-sizing {
+    padding: 0;
+  }
+}/*# sourceMappingURL=Mainstyle.css.map */

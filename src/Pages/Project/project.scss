@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+// Fonts
+$poppins_font: 'Poppins';
+$rubik_font: 'Rubik', sans-serif;
+$open_sans_font: 'Open Sans', sans-serif;
+
+// Background Image
+.bg-img {
+  background-image: url('../../Assests/projectimg2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Basic Banner Styles
+.basic_banner {
+  padding: 6rem 10rem;
+
+  .heaading_font {
+    font-family: $rubik_font;
+    font-weight: 700;
+    font-size: 60px;
+  }
+
+  .paragraph_font {
+    font-family: $open_sans_font;
+    font-weight: 400;
+  }
+}
+
+// Date Padding
+.date_paddings {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+// Media Queries for Basic Banner
+@media (max-width: 992px) {
+  .basic_banner {
+    padding: 3rem 5rem;
+
+    .heaading_font {
+      font-family: $rubik_font;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    .paragraph_font {
+      font-family: $open_sans_font;
+      font-weight: 400;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.home_bg_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_paddings {
+  padding: 10rem 10rem;
+}
+
+.home_heaading_font {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.home_paragraph_font {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.eco-paddings {
+  padding: 4rem 3rem !important;
+}
+
+@media (max-width: 992px) {
+  .home_heaading_font {
+    font-size: 30px !important;
+  }
+  .home_paragraph_font {
+    font-size: 15px;
+  }
+  .home_paddings {
+    padding: 2rem 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .home_heaading_font {
+    font-size: 25px !important;
+  }
+  .home_paragraph_font {
+    padding: 0 !important;
+    font-size: 15px;
+  }
+  .home_paddings {
+    padding: 2rem 2rem;
+  }
+}/*# sourceMappingURL=Homestyle.css.map */
